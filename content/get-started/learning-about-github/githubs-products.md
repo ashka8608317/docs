@@ -1,4 +1,17 @@
 ---
+{% data variables.product.prodname_ghe_cloud %} also includes:
+- {% data variables.contact.enterprise_support %}. For more information, see "<a href="/articles/github-enterprise-cloud-support" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} support</a>" and "<a href="/articles/github-enterprise-cloud-addendum" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} Addendum</a>."
+- 50,000 {% data variables.product.prodname_actions %} minutes
+- 50GB {% data variables.product.prodname_registry %} storage
+- Access control for {% data variables.product.prodname_pages %} sites. For more information, see <a href="/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site" class="dotcom-only">Changing the visibility of your {% data variables.product.prodname_pages %} site</a>"
+- A service level agreement for 99.9% monthly uptime
+- The option to centrally manage policy and billing for multiple {% data variables.product.prodname_dotcom_the_website %} organizations with an enterprise account. For more information, see "<a href="/articles/about-enterprise-accounts" class="dotcom-only">About enterprise accounts</a>."
+
+You can set up a trial to evaluate {% data variables.product.prodname_ghe_cloud %}. For more information, see "<a href="/articles/setting-up-a-trial-of-github-enterprise-cloud" class="dotcom-only">Setting up a trial of {% data variables.product.prodname_ghe_cloud %}</a>."
+
+For more information about hosting your own instance of [{% data variables.product.prodname_ghe_server %}](https://enterprise.github.com), contact {% data variables.contact.contact_enterprise_sales %}. {% data reusables.enterprise_installation.request-a-trial %}
+
+
 title: GitHub's products
 intro: 'An overview of {% data variables.product.prodname_dotcom %}''s products and pricing plans.'
 redirect_from:
@@ -90,15 +103,3 @@ In addition to the features available with {% data variables.product.prodname_te
 - Access provisioning with SAML or SCIM
 - {% data variables.product.prodname_github_connect %}{% ifversion fpt or ghae or ghes > 2.22 %}
 - The option to purchase {% data variables.product.prodname_GH_advanced_security %}. For more information, see "[About {% data variables.product.prodname_GH_advanced_security %}](/github/getting-started-with-github/about-github-advanced-security)."{% endif %}
-
-{% data variables.product.prodname_ghe_cloud %} also includes:
-- {% data variables.contact.enterprise_support %}. For more information, see "<a href="/articles/github-enterprise-cloud-support" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} support</a>" and "<a href="/articles/github-enterprise-cloud-addendum" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} Addendum</a>."
-- 50,000 {% data variables.product.prodname_actions %} minutes
-- 50GB {% data variables.product.prodname_registry %} storage
-- Access control for {% data variables.product.prodname_pages %} sites. For more information, see <a href="/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site" class="dotcom-only">Changing the visibility of your {% data variables.product.prodname_pages %} site</a>"
-- A service level agreement for 99.9% monthly uptime
-- The option to centrally manage policy and billing for multiple {% data variables.product.prodname_dotcom_the_website %} organizations with an enterprise account. For more information, see "<a href="/articles/about-enterprise-accounts" class="dotcom-only">About enterprise accounts</a>."
-
-You can set up a trial to evaluate {% data variables.product.prodname_ghe_cloud %}. For more information, see "<a href="/articles/setting-up-a-trial-of-github-enterprise-cloud" class="dotcom-only">Setting up a trial of {% data variables.product.prodname_ghe_cloud %}</a>."
-
-For more information about hosting your own instance of [{% data variables.product.prodname_ghe_server %}](https://enterprise.github.com), contact {% data variables.contact.contact_enterprise_sales %}. {% data reusables.enterprise_installation.request-a-trial %}
